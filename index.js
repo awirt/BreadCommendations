@@ -34,8 +34,8 @@ function appendBreadInfo(event){
   var breadRec = breadObject[time][doughType];
   var container = $(".container");
   
-  container.append(`
+  container.append(`<div class="breadRec">
     <p>${breadRec.name}</p>
-    <a href="${breadRec.link}"><img src="${breadRec.pic}"></a>
+    <a href="${breadRec.link}"><img src="${breadRec.pic}"></a></div>
   `)
 }
