@@ -14,6 +14,7 @@ body {
   flex-direction: column;
   
   color: #2D3142;
+  font-family: 'Jost', sans-serif;
 }
 
 div{
@@ -22,6 +23,22 @@ div{
   border: 5px solid blue;
   display: flex;
   justify-content: center;
+}
+
+.formQuestions {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+select {
+  width: 50%;
+  font-family: 'Jost', sans-serif;
+}
+
+option, .submit {
+  font-family: 'Jost', sans-serif;
 }
 
 form {
@@ -33,5 +50,6 @@ img{
 }
 
 .header{
-  font-family: font-family: 'Cabin Sketch', cursive;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 150%;
 }
