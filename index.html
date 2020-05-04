@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Bread-commendations</title>
+  </head>
+  
+  <body>
+    <div class="Header">
+      <h1>Complete the form below, and get a specialized BREAD-commendation!</h1>
+    </div>
+    
+    <form class="breadForm">
+      <div class="question1">
+        How long can you wait for bread?
+        <select id="time" name="time" class="time">
+          <option value=""></option>
+          <option value="quick">I need bread NOW!</option>
+          <option value="medium">I have a some time to work with.</option>
+          <option value="long">Time is not a concern.</option>
+        </select>
+      </div>
+      
+      <div class="question2">
+        What ingredients do you have in your pantry?
+        <select id="doughType" name="doughType" class="doughType">
+          <option value=""></option>
+          <option value="lean">The basics: flour, water, salt, and yeast.</option>
+          <option value="enriched">I have baking soda and some fat (butter, oil, lard).</option>
+          <option value="rich">All-in: I have eggs, butter, oil...you name it, I got it.</option>
+        </select>
+      </div>
+      <input type="submit" value="Get a BREAD-commendation!" class="submit">
+    </form>
+    
+    <div class="container">
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
